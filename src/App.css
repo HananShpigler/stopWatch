@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #52a6ff;
+  min-height: 100vh;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App__title{
+  text-transform: uppercase;
+  color: #31527c;
+  font-size: 4rem;
+  margin-top: -50px;
+}
+.App__watch{
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid #d6ffff;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-height:480px){
+  .App__title{
+    margin-top: 10px;
+  }
+  .App__watch{
+    margin-top: 10px;
+  }
+}
+.watch__display{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: #d6ffff;
+  font-size: 2.5rem;
+  transform: translate(-50%,-50%);
+}
+.watch__button{
+  border: none;
+  text-transform: uppercase;
+  color: #d6ffff;
+  font-size: 1.5rem;
+  position: absolute;
+  top:70%;
+  width: 150px;
+  height: 100px;
+  border: 3px solid #d6ffff;
+}
+.watch__start{
+  background: #00f06c;
+  left: 0%;
+  text-align: right;
+}
+.watch__stop {
+  text-align: left;
+  left: 50%;
+  background: #da3436;
+}
+.start__text{
+  margin-right: 15px;
+  margin-top: -15px;
+}
+.stop__text{
+  margin-left: 15px;
+  margin-top: -15px;
+}
