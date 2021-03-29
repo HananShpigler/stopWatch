@@ -1,2 +1,11 @@
 # stopWatch
-HTML5, CSS3, JavaScript and React in order to create a stopwatch.
+
+## Instructions
+- Click Start to get started.
+- Click Stop to suspend.
+- To reset, double-click Stop.
+
+## Getting Started
+Just click on the link below 👇, enjoy !
+
+⏱️ https://h3czy.csb.app/ ⏱️
